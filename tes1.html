@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Bootstrap Example</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, intial-scale=1">
+	<link rel="stylesheet" href="lib/bootstrap.min.css">
+	<script src="lib/jquery.min.js"></script>
+	<script src="lib/bootstrap.min.js"></script>
+	<style>
+		/* Remove the navbar's default rounded borders and increase the bottom margin */
+		.navbar {
+			margin-bottom: 50px;
+			border-radius: 0px;
+		}
+		
+		/* Remove the jumbotron's default bottom margin */
+		.jumbotron {
+			margin-bottom: 0;
+		}
+		
+		/*Add a grey background color and some padding to the footer */
+		footer {
+			background-color: #f2f2f2;
+			padding: 25px;
+		}		
+	</style>
+</head>
+<body>
+
+	<div class="jumbotron">
+		<div class="container text-center">
+			<h1>Online Store</h2>
+			<p>Inovasi, Kreasi, Mandiri</p>
+		</div>
+	</div>
+	
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" 
+				data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">Logo</a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li class="acttive"><a href="#">Home</a></li>
+					<li><a href="#">Products</a></li>
+					<li><a href="#">Deals</a></li>
+					<li><a href="#">Stores</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#"><span class="gluphicon glyphicon-user"></span> Your Account </a></li>
+					<li><a href="#"><span class="gluphicon glyphicon-shopping-cart"></span> Cart </a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-4">
+				<div class="panel panel-primary">
+					<div class="panel-heading">Black Friday Deal</div>
+					<div class="panel-body"><img style="max-height: 350px; display: block; margin: auto; width: 100%;" src="images/v19.jpg" class="img=responsive" 
+					style="width:100%" alt="Image"></div>
+					<div class="panel-footer">Vivo V19 - White Cristal<br>
+					<a href="product.html" target="_blank">Spesifikasi Produk</a><br>
+					Rp 6.000.000,-<br>
+					<strike>Rp 6.500.000,-</strike><br>
+					<italic>cicilan</italic>: Rp 2.050.000,-</div>
+				</div>
+			</div>
+			
+			<div class="col-sm-4">
+				<div class="panel panel-primary">
+					<div class="panel-heading">Black Friday Deal</div>
+					<div class="panel-body"><img style="max-height: 350px; display: block; margin: auto; width: 100%;" src="images/8pro.jpg" class="img=responsive" 
+					style="width:100%" alt="Image"></div>
+					<div class="panel-footer">Xiaomi Redmi Note 8 Pro - Green <br>
+					<a href="product.html" target="_blank">Spesifikasi Produk</a><br>
+					Rp 3.400.000,-<br>
+					<strike>Rp 3.800.000,-</strike><br>
+					<italic>cicilan</italic>: Rp 1.050.000,-</div>
+				</div>
+			</div>
+			
+			<div class="col-sm-4">
+				<div class="panel panel-primary">
+					<div class="panel-heading">Black Friday Deal</div>
+					<div class="panel-body"><img style="max-height: 350px; display: block; margin: auto; width: 100%;" src="images/huaweip30.jpg" class="img=responsive" 
+					style="width:100%" alt="Image"></div>
+					<div class="panel-footer">Huawei P30 Pro - All Variant<br>
+					<a href="product.html" target="_blank">Spesifikasi Produk</a><br>
+					Rp 7.800.000,-<br>
+					<strike>Rp 8.500.000,-</strike><br>
+					<italic>cicilan</italic>: Rp 3.050.000,-</div>
+				</div>
+			</div>
+			
+			<div class="col-sm-4">
+				<div class="panel panel-primary">
+					<div class="panel-heading">Black Friday Deal</div>
+					<div class="panel-body"><img style="max-height: 350px; display: block; margin: auto; width: 100%;" src="images/reno2f.jpg" class="img=responsive" 
+					style="width:100%" alt="Image"></div>
+					<div class="panel-footer">Oppo Reno 2F - Mate Green <br>
+					<a href="product.html" target="_blank">Spesifikasi Produk</a><br>
+					Rp 4.200.000,-<br>
+					<strike>Rp 4.800.000,-</strike><br>
+					<italic>cicilan</italic>: Rp 1.500.000,-</div>
+				</div>
+			</div>
+			
+			<div class="col-sm-4">
+				<div class="panel panel-primary">
+					<div class="panel-heading">Black Friday Deal</div>
+					<div class="panel-body"><img style="max-height: 350px; display: block; margin: auto; width: 100%;" src="images/s20ultra.jpg" class="img=responsive" 
+					style="width:100%" alt="Image"></div>
+					<div class="panel-footer">Samsung S20 Ultra - Grey<br>
+					<a href="product.html" target="_blank">Spesifikasi Produk</a><br>
+					Rp 14.000.000,-<br>
+					<strike>Rp 14.500.000,-</strike><br>
+					<italic>cicilan</italic>: Rp 6.050.000,-</div>
+				</div>
+			</div>
+		</div>
+	</div><br><br>
+	
+			<footer class="container-fluid text-center">
+				<p>Online Store Copyright</p>
+				<form class="form-inline"> Get Deals :
+					<input type="email" class="form-control" size="50" placeholder="Email Address">
+					<button type="button" class="btn btn-danger">Sign Up</button>
+				</form>
+			</footer>
+		
+</body>
+</html>
